@@ -85,7 +85,7 @@ int write_number(int is_negative, int ind, char buffer[],
  * @buffer: Buffer to handle print
  * @flags:  Calculates all the active flags.
  * @width: get the width.
- * @precision: print precision specifier
+ * @prec: print precision specifier
  * @size: print Size specifier.
  * @length: length of Number
  * @padd: Padding characters
@@ -203,8 +203,6 @@ int write_unsgnd(int is_negative, int ind,
  * @buffer: Buffer to handle print
  * @flags:  Calculates all the active flags.
  * @width: get the width.
- * @precision: print precision specifier
- * @size: print Size specifier
  * @length: length of Number
  * @padd: Padding characters
  * @extra_c: Extra characters.
