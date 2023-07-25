@@ -86,7 +86,6 @@ int write_number(int is_negative, int ind, char buffer[],
  * @flags:  Calculates all the active flags.
  * @width: get the width.
  * @prec: print precision specifier
- * @size: print Size specifier.
  * @length: length of Number
  * @padd: Padding characters
  * @extra_c: Extra characters.
